@@ -10,7 +10,8 @@ Installation
 Add the FakerRestaurant library to your `composer.json` file:
 
 ```
-composer require m-shbieb/faker-restaurant
+composer require m-shbieb/faker-restaurant --dev
+
 ```
 
 Usage
