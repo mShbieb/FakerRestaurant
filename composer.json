@@ -1,7 +1,7 @@
 {
-  "name": "jzonta/faker-restaurant",
+  "name": "m-shbieb/faker-restaurant",
   "description": "Food and Beverage names generate using fzaninotto/Faker",
-  "homepage": "https://github.com/jzonta/FakerRestaurant",
+  "homepage": "https://github.com/mShbieb/FakerRestaurant",
   "version": "1.1.0",
   "license": "MIT",
   "authors": [
