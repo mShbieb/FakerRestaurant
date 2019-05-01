@@ -10,7 +10,7 @@ Installation
 Add the FakerRestaurant library to your `composer.json` file:
 
 ```
-composer require jzonta/faker-restaurant
+composer require m-shbieb/faker-restaurant
 ```
 
 Usage
@@ -22,7 +22,7 @@ To  use this with [Faker](https://github.com/fzaninotto/Faker), you must add the
 <?php
 
 $faker = \Faker\Factory::create();
-$faker->addProvider(new \FakerRestaurant\Provider\en_US\Restaurant($faker));
+$faker->addProvider(new \FakerRestaurant\Provider\ar_SA\Restaurant($faker));
 
 // Generator
 $faker->foodName();      // A random Food Name
