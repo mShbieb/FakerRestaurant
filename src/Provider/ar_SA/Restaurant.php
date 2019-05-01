@@ -1,109 +1,84 @@
 <?php
 
-namespace FakerRestaurant\Provider\en_US;
+namespace FakerRestaurant\Provider\ar_SA;
 
 class Restaurant extends \Faker\Provider\Base
 {
     protected static $foodNames = [
-        'Cheese Pizza', 'Hamburger', 'Cheeseburger', 'Bacon Burger', 'Bacon Cheeseburger',
-        'Little Hamburger', 'Little Cheeseburger', 'Little Bacon Burger', 'Little Bacon Cheeseburger',
-        'Veggie Sandwich', 'Cheese Veggie Sandwich', 'Grilled Cheese',
-        'Cheese Dog', 'Bacon Dog', 'Bacon Cheese Dog', 'Pasta'
+        "تشيز بيتزا" , "هامبرغر" , "تشيز برجر" , "بيكون برجر" , "بيكون تشيز برجر" ,
+        "ليتل همبرغر" , "تشيز برجر الصغير" , "ليتل بيكون برجر" , "ليتل بيكون تشيز برجر" ,
+        "ساندوتش الخضروات" , "الجبنة ساندوتش الخضروات" , "الجبنة المشوية" ,
+        "هوت دوك" , "لحم البقر المقدد" , "لحم الخنزير المقدد" , "المعكرونة"
     ];
 
     protected static $beverageNames = [
-        'Beer', 'Bud Light', 'Budweiser', 'Miller Lite',
-        'Milk Shake', 'Tea', ' Sweet Tea', 'Coffee', 'Hot Tea',
-        'Champagne', 'Wine', 'Limonade', 'Coca-Cola', 'Diet-Coke',
-        'Water', 'Sprite', 'Orange Juice', 'Iced Coffee'
+        "باربكان" , "براعم لايت" , "بدويايزر" , "ميلر لايت" ,
+        "ميلك شيك" , "شاي" , "شاي حلو" , "قهوة" , "شاي ساخن" ,"سحلب" , "بابونج"
+        , "عصير اليمون" , "كوكا كولا" , "الدايت كوك" ,
+        "ماء" , "سبرايت" , "عصير برتقال" , "قهوة مثلجة"
     ];
 
     protected static $dairyNames = [
-        'Butter',
-        'Egg',
-        'Milk',
-        'Cheese',
-        'Sour cream',
-        'Mozzarella',
-        'Yogurt',
-        'Cream',
-        'Milk',
-        'Custard',
+        'زبدة',
+        'بيضة',
+        'حليب',
+        'جبن',
+        'الكريمة الحامضة',
+        'جبن موزاريلا',
+        'زبادي',
+        'كريم',
+        'حليب',
+        "كاسترد",
     ];
 
     protected static $vegetableNames = [
-        'Onion',
-        'Garlic',
-        'Tomato',
-        'Potato',
-        'Carrot',
-        'Bell Pepper',
-        'Bell Basil',
-        'Parsley',
-        'Broccoli',
-        'Corn',
-        'Spinach',
-        'Mushroom',
-        'Ginger',
-        'Chili',
-        'Celery',
-        'Roemary',
-        'Cucumber',
-        'Pickle',
-        'Avocado',
-        'Pumpkin',
-        'Mint',
-        'Eggplant',
-        'Yam',
+        'بصلة' , 'ثوم', 'طماطم', 'البطاطس', 'جزرة', 'بيل بيل', 'بيل باسيل', 'بقدونس', 'بروكلي',
+        'حبوب ذرة', 'سبانخ', 'فطر', 'زنجبيل', 'الفلفل الحار', 'كرفس', 'خيار', 'ورطة',
+        'أفوكادو', 'يقطين', 'نعناع', 'الباذنجان', 'بطاطا',
     ];
 
     protected static $fruitNames = [
-        'Lemon',
-        'Apple',
-        'Banana',
-        'Lime',
-        'Strawberry',
-        'Orange',
-        'Pineapple',
-        'Blueberryy',
-        'Raisin',
-        'Coconut',
-        'Grape',
-        'Peach',
-        'Raspberry',
-        'Cranberry',
-        'Mango',
-        'Pear',
-        'Blackberry',
-        'Cherry',
-        'Watermelon',
-        'Kiwi',
-        'Papaya',
-        'Guava',
-        'Lychee',
+        'ليمون',
+        'تفاحة',
+        'موز',
+        'جير',
+        'الفراولة',
+        'البرتقالي',
+        'أناناس',
+        "خوخ",
+        'زبيب',
+        'جوزة الهند',
+        'عنب',
+        'خوخ',
+        'توت العليق',
+        'كرز',
+        'مانجو',
+        'كمثرى',
+        'بلاك بيري',
+        'كرز',
+        'البطيخ',
+        'كيوي',
+        'بابايا',
+        "الجوافة",
+        "ليتشي",
     ];
 
     protected static $meatNames = [
-        'Chicken',
-        'Bacon',
-        'Sausage',
-        'Beef',
-        'Ham',
-        'Hot dog',
-        'Pork',
-        'Turkey',
-        'Chicken wing',
-        'Chicken breast',
-        'Lamb',
+        'دجاج',
+        'لحم خنزير مقدد',
+        'سجق',
+        'لحم بقري',
+        'لحم جمل',
+        'نقانق',
+        'لحم جمل',
+        'ديك رومي',
+        'جناح دجاجة',
+        'صدر دجاج',
+        'عدس',
     ];
 
     protected static $sauceNames = [
-        'Tomato sauce',
-        'Tomato paste',
-        'Mayonaise sauce',
-        'BBQ sauce',
-        'Chili sauce',
-        'Garlic sauce',
+        "صلصة الطماطم" , "معجون الطماطم" , "صلصة المايونيز" , "صلصة الباربكيو" , "صلصة الفلفل الحار" , "صلصة الثوم" ,
     ];
 
     /**
